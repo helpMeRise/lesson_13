@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 18px 30px;
+  background-color: #ffd200;
+  border: none;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Museo Sans 700 Bold";
+  src: url("../fonts/MuseoSansCyrl-700.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans 300 Bold";
+  src: url("../fonts/MuseoSansCyrl-300.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  padding: 8px 8px;
+}
+
+.navbar-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+}
+
+.navbar__address {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Museo Sans 300 Bold";
+}
+
+.navbar__phone {
+  font-size: 20p;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333333;
+  margin-top: 9px;
+  font-family: "Museo Sans 700 Bold";
+}
+
+.navbar__button {
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Museo Sans 700 Bold";
+}
+/*# sourceMappingURL=style.css.map */
